@@ -1,0 +1,131 @@
+- {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    }
+    
+    body {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    background-color: #FFFFFF;
+    color: #000500;
+    //platinum black and melon #E8E8E8 #000500 #F6ACA2
+    
+    }
+    
+    .container {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+    }
+    
+    .bungee-hairline-regular {
+    /* font-family: "Bungee Hairline", serif; */
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    .title {
+    font-family: "Bungee Hairline", serif;
+    font-size: 8rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    text-align: center;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 10px;
+    
+    }
+    
+    input {
+    
+    ```
+    margin-bottom: 10px;
+    
+    ```
+    
+    }
+    
+    input [type="text"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000500;
+    }
+    
+    .box  {
+    height: 20vh;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid #000500;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #74A4BC;
+    }
+    
+    .toggle {
+    
+    ```
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+    ```
+    
+    }
+    
+    .toggle-text {
+    
+    ```
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    
+    ```
+    
+    }
+    
+    .inner-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    background-color: #A675A1;
+    margin: 10px;
+    transition: all 250ms;
+    }
+    
+    .toggle-button {
+    
+    ```
+    height: 64px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #FFF;
+    margin-right: 10px;
+    
+    ```
+    
+    }
+    
+    /* if toggled button has a class of toggled */
+    .toggle-button.toggled > .inner-circle {
+    transform: translateX(40px);
+    background-color: #8DAA91;
+    }
+    
+    .unselected {
+    
+    ```
+    opacity: 0.3;
+    
+    ```
+    
+    }
+    
+    input[type="range"] {
+    width: 100%; /* Full width of the parent container */
+    Limit the maximum width */
+    }
